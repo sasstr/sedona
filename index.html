@@ -27,31 +27,109 @@
           <h2 class="main-title">СЕДОНА — небольшой городок в АРИЗОНЕ,<br> 
               Заслуживающий большего!</h2>
           <span>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</span>  
-          <ul>
-            <li><a href=""> </a></li>
+          <ul class="advantages-list">
             <li>
-              <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+              <div class="advantages-list-info">
+              <h3 class="advantage-list-title">Настоящий<br>городок</h3> 
+                <span> — №1 — </span>
+              <p>Седона — Не Аттракцион для туристов, там течет своя жизнь</p>
+              </div> 
+              <div class="advantage-image"> </div>
+            </li>
+            <li>
+              <ul class="advantage-list-items">
+                <li>
+                  <h3 class="advantage-list-items-title">Жильё</h3>                    
+                  <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+                </li>
+                <li>
+                  <h3 class="advantage-list-items-title">Еда</h3>                    
+                  <p>Всегда заказывайте ФИРМЕННЫЙ БУРГЕР,
+                      Вы НЕ разочаруетесь!
+                  </p>
+                </li>
+                <li>
+                    <h3 class="advantage-list-items-title">Сувениры</h3>                    
+                    <p>Не только китайского, но и местного производства!
+                    </p>
+                </li>
               </ul>
             </li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
+            <li> 
+                <div class="advantages-list-info">
+                    <h3 class="advantage-list-title">Там есть<br> 
+                        Мост дьявола</h3> 
+                      <span> — №2 — </span>
+                    <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+                    </div> 
+                    <div class="advantage-image"> </div>
+            </li>
+            <li> 
+                <h3 class="advantage-list-items-title">Небольшая площадь</h3>
+                <span> — №3 — </span>                    
+                <p>Все достопримечательности 
+                    находятся очень близко
+                </p>
+            </li>
+            <li> 
+                <h3 class="advantage-list-items-title">Красивая дорога</h3>
+                <span> — №4 — </span>
+                <p>Ехать В Седону из Лас-Вегаса совсем не скучно!
+                </p>
+            </li>
+            <li> 
+                <h3 class="advantage-list-items-title">Мало туристов</h3>
+                <span> — №5 — </span> 
+                <p>Большинство едет в гранд каньон и толпится там
+                </p>
+            </li>
           </ul>
       
         </section>  
-      
-    
-    
-    
+        <section class="choose-hotel">
+            <h2 class="choose-hotel-main-title">ЗАИНТЕРЕСОВАЛИСЬ?</h2>
+            <p>Укажите предполагаемые даты поездки, 
+                и мы покажем вам лучшие предложения гостиниц в седоне
+            </p>
+            <form action="https://echo.htmlacademy.ru" method="POST">
+              
+              <h2 class="choose-hotel-title">Поиск гостиницы в Седоне</h2>
+
+              <input type="text" name="date-start" id="date-start">
+              <label class="choose-hotel-date" for="date-start">Дата заезда</label>
+
+              <input type="text" name="date-end" id="date-end">
+              <label class="choose-hotel-date" for="date-end">Дата заезда</label>
+              
+              <label class="choose-hotel-amount" for="amount-adult">Взрослые:</label>
+              <input type="number" name="amount-adult" id="amount-adult">
+              
+              <label class="choose-hotel-amount" for="amount-children">Дети:</label>
+              <input type="number" name="amount-children" id="amount-children">
+              
+
+              <input type="submit" value="Найти">
+
+            </form>
+        </section>   
     
     </main>
-    <footer>
+    <footer class="main-footer">
+      <span class="main-footer-heshteg">
+          #visitSEDONA
+      </span>
+      <ul class="main-footer-social">
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+      </ul>
 
-
+      <span class="main-footer-production-by">
+          WEBSITE by
+      </span>
+      <a class="main-footer-logo-link" href="#">
+        <img src="img/logo-name-footer.png" alt="Логотип HTML Academy">
+      </a>
     </footer>  
 
   </body>
