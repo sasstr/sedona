@@ -4,7 +4,10 @@
 *.log
 *.pdf
 *.psd
+*.zip
+*.rar
 *.sublime*
 node_modules/
+preview/*
 npm-debug.*
 Thumbs.db
