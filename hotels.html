@@ -65,20 +65,21 @@
           <div class="filter-option__price">
             <div class="filter-option__price-range price-range">
               <h2 class="filter-option__title">Стоимость в сутки (Р):</h2>
-              <div class="price-range__price-control">
-                <label class="price-range__min-price">от
-                  <input type="text" name="min-price" value="0">
+              <div class="price-range__price-controls">
+                <label class="price-range__label price-range__label--min-price">от
+                  <input class="price-range__input" type="text" name="min-price" value="0">
                 </label>
-                <label class="price-range__max-price">до
-                  <input type="text" name="max-price" value="3000">
+                <label class="price-range__label price-range__label--max-price">до
+                  <input class="price-range__input" type="text" name="max-price" value="3000">
                 </label>
               </div>
               <div class="price-range__controls">
-              <div class="price-range__scale">
-                  <div class="price-range__bar"></div>
+                <div class="price-range__scale">
+                    <div class="price-range__bar"></div>
+                </div>
+                <div class="price-range__toggle price-range__toggle--min"></div>
+                <div class="price-range__toggle price-range__toggle--max"></div>
               </div>
-              <div class="price-range__toggle price-range__toggle--min"></div>
-              <div class="price-range__toggle price-range__toggle--max"></div>
             </div>
           </div>
 

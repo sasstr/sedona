@@ -26,10 +26,6 @@ body {
     font-size: 14px;   /* Задаем размер шрифта которого больше всего на странице  */
     font-weight: 700;  /* Задаем самый популярный на странице размер шрифт  */
     line-height: 21px;
-    /*background-color: #fff;  Задаем контрастный цвет фона  */
-    /*background-image: url();  Задаем картинку фона  */
-    /*background-position: ;  top center Задаем позицию картинки фона  */
-    /*background-repeat: ;    no-repeat Задаем повторение картинки фона  */
 }
 
 a {
