@@ -19,9 +19,9 @@
             <a class="nav__link" href="#">Фото и видео</a>
           </li>
         </ul>
-          <a class="nav__main-logo">
+          <span class="nav__main-logo">
             <img class="nav__img-logo" src="img/logo-main-header.png" width="138" height="70" alt="Логотип сайта Седона">
-          </a>
+          </span>
         <ul class="nav__menu">
           <li class="nav__item">
             <a class="nav__link" href="#">Карта штата</a>
@@ -46,101 +46,118 @@
         <ul class="advantages__list">
           <li class="advantages__item">
             <div class="advantages__wrapper">
-            <h3 class="advantages__list-title">Настоящий<br>городок</h3>
+            <h3 class="advantages__title">Настоящий<br>городок</h3>
               <span class="advantages__number"> — №1 — </span>
             <p class="advantages__text">Седона — Не Аттракцион для туристов, там течет своя жизнь</p>
             </div>
             <div class="advantages__image"></div>
           </li>
           <li>
-            <ul class="advantages__list-items">
+            <ul class="advantages__sub-list">
               <li>
-                <h3 class="advantages__list-items-title">Жильё</h3>
-                <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+                <h3 class="advantages__sub-title">Жильё</h3>
+                <p class="advantages__sub-text">
+                  Рекомендуем пожить в настоящем мотеле, все как в кино!
+                </p>
               </li>
               <li>
-                <h3 class="advantage-list-items-title">Еда</h3>
-                <p>Всегда заказывайте ФИРМЕННЫЙ БУРГЕР,
+                <h3 class="advantage-sub-title">Еда</h3>
+                <p class="advantages__sub-text">
+                  Всегда заказывайте ФИРМЕННЫЙ БУРГЕР,
                   Вы НЕ разочаруетесь!
                 </p>
               </li>
               <li>
-                <h3 class="advantage-list-items-title">Сувениры</h3>
-                <p>Не только китайского, но и местного производства!
+                <h3 class="advantage-sub-title">Сувениры</h3>
+                <p class="advantages__sub-text">
+                  Не только китайского, но и местного производства!
                 </p>
               </li>
             </ul>
           </li>
           <li>
-            <div class="advantages-list-info">
-              <h3 class="advantage-list-title">Там есть<br>Мост дьявола</h3>
-              <span> — №2 — </span>
-              <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+            <div class="advantages__wrapper">
+              <h3 class="advantages__title">Там есть<br>Мост дьявола</h3>
+              <span class="advantages__number"> — №2 — </span>
+              <p class="advantages__text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
             </div>
-            <div class="advantage-image">
+            <div class="advantages__image">
             </div>
           </li>
           <li>
-            <h3 class="advantage-list-items-title">Небольшая площадь</h3>
-            <span> — №3 — </span>
-            <p>Все достопримечательности
+            <h3 class="advantages__title">Небольшая площадь</h3>
+            <span class="advantages__number"> — №3 — </span>
+            <p class="advantages__text">Все достопримечательности
                 находятся очень близко
             </p>
           </li>
           <li>
-            <h3 class="advantage-list-items-title">Красивая дорога</h3>
-            <span> — №4 — </span>
-            <p>Ехать В Седону из Лас-Вегаса совсем не скучно!
+            <h3 class="advantages__title">Красивая дорога</h3>
+            <span class="advantages__number"> — №4 — </span>
+            <p class="advantages__text">Ехать В Седону из Лас-Вегаса совсем не скучно!
             </p>
           </li>
           <li>
-            <h3 class="advantage-list-items-title">Мало туристов</h3>
-            <span> — №5 — </span>
-            <p>Большинство едет в гранд каньон и толпится там
+            <h3 class="advantages__title">Мало туристов</h3>
+            <span class="advantages__number"> — №5 — </span>
+            <p class="advantages__text">
+              Большинство едет в гранд каньон и толпится там
             </p>
           </li>
         </ul>
       </section>
-      <section class="choose-hotel">
-        <h2 class="choose-hotel-main-title">ЗАИНТЕРЕСОВАЛИСЬ?</h2>
-        <p>Укажите предполагаемые даты поездки,
+      <section class="hotel-search">
+        <h2 class="hotel-search__main-title">ЗАИНТЕРЕСОВАЛИСЬ?</h2>
+        <p class="hotel-search__text">Укажите предполагаемые даты поездки,
         и мы покажем вам лучшие предложения гостиниц в седоне
         </p>
-        <form action="https://echo.htmlacademy.ru" method="POST">
+        <form class="hotel-search__form"></form> action="https://echo.htmlacademy.ru" method="POST">
 
-          <h2 class="choose-hotel-title">Поиск гостиницы в Седоне</h2>
+          <h2 class="hotel-search__title">Поиск гостиницы в Седоне</h2>
 
-          <input type="text" name="date-start" id="date-start">
-          <label class="choose-hotel-date" for="date-start">Дата заезда</label>
+          <label class="hotel-search__label" for="date-start">Дата заезда</label>
+          <input class="hotel-search__input" type="text" name="date-start" id="date-start">
 
-          <input type="text" name="date-end" id="date-end">
-          <label class="choose-hotel-date" for="date-end">Дата заезда</label>
+          <label class="hotel-search__label" for="date-end">Дата заезда</label>
+          <input class="hotel-search__input" type="text" name="date-end" id="date-end">
 
-          <label class="choose-hotel-amount" for="amount-adult">Взрослые:</label>
-          <input type="number" name="amount-adult" id="amount-adult">
+          <label class="hotel-search__label hotel-search__label--amount" for="amount-adult">Взрослые:</label>
+          <input class="hotel-search__input" type="number" name="amount-adult" id="amount-adult">
 
-          <label class="choose-hotel-amount" for="amount-children">Дети:</label>
-          <input type="number" name="amount-children" id="amount-children">
+          <label class="hotel-search__label hotel-search__label--amount" for="amount-children">Дети:</label>
+          <input class="hotel-search__input" type="number" name="amount-children" id="amount-children">
 
-          <input type="submit" value="Найти">
+          <input class="hotel-search__input hotel-search__input--submit"  type="submit" value="Найти">
 
         </form>
       </section>
     </main>
 
-    <footer class="main-footer">
-      <span class="main-footer-heshteg">
+    <footer class="footer">
+      <span class="footer__hashtag">
         #visitSEDONA
       </span>
-      <ul class="main-footer-social">
-        <li><a class="main-footer-social-link" href="#">Twitter</a></li>
-        <li><a class="main-footer-social-link" href="#">Facebook</a></li>
-        <li><a class="main-footer-social-link" href="#">Youtube</a></li>
+      <ul class="footer-social">
+        <li>
+          <a class="footer__social-link" href="#">
+            <span class="visually-hidden">Twitter</span>
+          </a>
+        </li>
+        <li>
+          <a class="footer__social-link" href="#">
+            <span class="visually-hidden">Facebook</span>
+          </a>
+        </li>
+        <li>
+          <a class="footer__social-link" href="#">
+            <span class="visually-hidden">Youtube</span>
+          </a>
+        </li>
       </ul>
-      <span class="main-footer-production-by">
+      <span class="footer__production-by">
         WEBSITE by
       </span>
-      <a class="main-footer-logo-link" href="#">
+      <a class="footer__logo-link" href="#">
         <img src="img/logo-name-footer.png" alt="Логотип HTML Academy">
       </a>
     </footer>

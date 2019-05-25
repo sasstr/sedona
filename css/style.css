@@ -8,6 +8,16 @@
 */
 
 /* Глобальные стили для тегов */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
     margin: 0;  /* Сброс  */
     padding: 0; /* Сброс  */
@@ -15,6 +25,7 @@ body {
     font-family: "PT Sans";   /* (Шрифт дизайна, системный шрифт, font family) Задаем самый популярный на странице шрифт  */
     font-size: 14px;   /* Задаем размер шрифта которого больше всего на странице  */
     font-weight: 700;  /* Задаем самый популярный на странице размер шрифт  */
+    line-height: 21px;
     /*background-color: #fff;  Задаем контрастный цвет фона  */
     /*background-image: url();  Задаем картинку фона  */
     /*background-position: ;  top center Задаем позицию картинки фона  */
@@ -24,3 +35,19 @@ body {
 a {
     text-decoration: none;
 }
+
+/* .visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+
+  border: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+} */
