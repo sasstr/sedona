@@ -69,6 +69,10 @@ a {
 }
 
 .nav__item {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
   min-width: 239px;
   padding: 22px auto;
 
@@ -80,5 +84,21 @@ a {
 .nav__link {
   display: block;
 
-  width: 100%;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.slider {
+  display: flex;
+
+/*   width: 100%; */
+  min-height: 508px;
+  padding: 0;
+  margin: 0 auto;
+
+  background-image: url('../img/header-background-photo.png'),
+                    url('../img/header-cut-bcg-photo.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
