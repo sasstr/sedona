@@ -55,15 +55,17 @@ a {
 
   width: 1200px;
   min-height: 56px;
-  margin: 0 auto;
   padding: 0;
+  margin: 0 auto;
+
 }
+/* HEADER */
 
 .nav__menu {
   display: flex;
 
-  margin: 0;
   padding: 0;
+  margin: 0;
 
   list-style: none;
 }
@@ -74,7 +76,7 @@ a {
   justify-content: space-between;
   align-items: center;
   min-width: 239px;
-  padding: 22px auto;
+  padding: 22px 10px;
 
   color: #000000;
   line-height: 26px;
