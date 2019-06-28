@@ -21,7 +21,7 @@ html {
 body {
     margin: 0;  /* Сброс  */
     padding: 0; /* Сброс  */
-    color:#000; /* Задаем контрастный цвет шрифта  */
+    color:#000000; /* Задаем контрастный цвет шрифта  */
     font-family: "PT Sans", Arial, sans-serif;   /* (Шрифт дизайна, системный шрифт, font family) Задаем самый популярный на странице шрифт  */
     font-size: 14px;   /* Задаем размер шрифта которого больше всего на странице  */
     font-weight: 700;  /* Задаем самый популярный на странице размер шрифт  */
@@ -78,7 +78,6 @@ a {
   min-width: 239px;
   padding: 22px 10px;
 
-  color: #000000;
   line-height: 26px;
   text-transform: uppercase;
 }
@@ -103,4 +102,57 @@ a {
                     url('../img/header-cut-bcg-photo.png');
   background-repeat: no-repeat;
   background-position-x: center;
+}
+
+.advantages {
+  padding: 61px 0 0 0;
+}
+
+.advantages__main-title {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0 0 29px 0;
+
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.advantages__info {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0 0 56px 0;
+
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.advantages__list {
+  list-style-type: none;
+}
+
+.advantages__sub-list {
+  list-style-type: none;
+}
+
+.advantages__sub-title {
+  color: #000000;
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.advantages__sub-text {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-transform: uppercase;
 }
