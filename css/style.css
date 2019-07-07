@@ -104,8 +104,20 @@ a {
   background-position-x: center;
 }
 
+.container {
+  min-width: 1200px;
+  margin: 0 auto;
+}
+
 .advantages {
   padding: 61px 0 0 0;
+}
+
+.advantages__wrapper {
+  width: 400px;
+  height: 256px;
+
+  background-color: #81b3d2;
 }
 
 .advantages__main-title {
@@ -138,8 +150,65 @@ a {
   list-style-type: none;
 }
 
+.advantages__item {
+  display: flex;
+  justify-content: center;
+}
+
+.advantages__item--reverse {
+  flex-direction: row-reverse;
+}
+
+.advantages__title {
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.advantages__title--white {
+  color: #ffffff;
+}
+
+.advantages__number--white {
+  color: #ffffff;
+}
+
+.advantages__text {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.advantages__image {
+  width: 800px;
+  height: 256px;
+
+  background-image: url('/img/photo-featers-1.png');
+}
+
+.advantages__image--next {
+  background-image: url('/img/photo-featers-2.png');
+}
+
+.advantages__text--gray {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
 .advantages__sub-list {
+  display: flex;
+  justify-content: center;
+
   list-style-type: none;
+}
+
+.advantages__sub-list-item--gray {
+  background-color: #f2f2f2;
 }
 
 .advantages__sub-title {
